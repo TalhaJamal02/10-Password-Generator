@@ -60,7 +60,7 @@ function PasswordGenerator() {
       () => {
         toast("Password copied!");
       },
-      (err) => {
+      () => {
         toast("Failed to copy password!");
       }
     );
